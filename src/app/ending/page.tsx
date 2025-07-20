@@ -26,9 +26,9 @@ import {
 import { Db } from "@/firebase";
 import DashboardCard from "@/components/shared/DashboardCard";
 import moment from "moment";
-import PageContainer from "../../../components/container/PageContainer";
-import HeaderAlert from "../../../components/frontend-pages/shared/header/HeaderAlert";
-import HpHeader from "../../../components/frontend-pages/shared/header/HpHeader";
+import PageContainer from "@/components/container/PageContainer";
+import HeaderAlert from "@/components/frontend-pages/shared/header/HeaderAlert";
+import HpHeader from "@/components/frontend-pages/shared/header/HpHeader";
 
 interface PolDataType {
   id: string;
